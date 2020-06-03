@@ -25,11 +25,11 @@ VBScript, areas of use:
 
 [Demo application](https://yadi.sk/d/pF49IbwH_JEh4g) allows to run scripts and evaluate expressions.
 
-#### Price
-Core classes: $100
+### Price
+Core classes: $100  
 Add-ons WMI, ADO, RegEx, Windows Search): $50 for each add-on.
 
-#### Contacts
+### Contacts
 mikeduglas@yandex.ru
 
 VBScript examples.
