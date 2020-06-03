@@ -25,6 +25,12 @@ VBScript, areas of use:
 
 [Demo application](https://yadi.sk/d/pF49IbwH_JEh4g) allows to run scripts and evaluate expressions.
 
+### Requirements
+- C63. and higher, ABC/Clarion
+- No blackbox
+- No 3rd parties
+- No dependencies (VC++, .NET and so on)
+
 ### Price
 Core classes: $100  
 Add-ons (WMI, ADO, RegEx, Windows Search): $25 for each add-on.
