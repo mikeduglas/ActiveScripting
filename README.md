@@ -27,12 +27,12 @@ VBScript, areas of use:
 
 ### Price
 Core classes: $100  
-Add-ons WMI, ADO, RegEx, Windows Search): $50 for each add-on.
+Add-ons (WMI, ADO, RegEx, Windows Search): $25 for each add-on.
 
 ### Contacts
 mikeduglas@yandex.ru
 
-VBScript examples.
+#### VBScript examples.
 1. Calculator:
 type an expression like "0.75 / 4" or "sqr(5) + log(13)" and press Evaluate expression button.
 
