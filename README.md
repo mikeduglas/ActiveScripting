@@ -252,19 +252,19 @@ To find all “setup.exe” files you define “System.FileName=‘setup.exe’�
 
 To perform a search by mask (“setup.*”) use ‘LIKE’ operator:
 
-` ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE System.FileName LIKE ''setup.*''')
+>               ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE System.FileName LIKE ''setup.*''')
 
 **Search by file content**
 You can search for words and phrases, below “FREETEXT” predicate is used:
 
-`ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE FREETEXT(''Windows Search'')')
+>               ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE FREETEXT(''Windows Search'')')
 
 **Search by document type**
 Next example finds all big pictures (image size is greater than 1024x768):
 
-`ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE System.Kind = ''Picture'' AND System.Image.VerticalSize >= 768 AND System.Image.HorizontalSize >= 1024')
+>               ws.Search('SELECT System.ItemPathDisplay FROM SystemIndex WHERE System.Kind = ''Picture'' AND System.Image.VerticalSize >= 768 AND System.Image.HorizontalSize >= 1024')
 
 You can request not only System.ItemPathDisplay (which actually is full filename), but any type of information: size, modified date, author, image width, color depth and so on.
 
 Windows Search allows requests against remote machine as well, all you need is machine name:
-`SELECT System.ItemPathDisplay FROM MACHINENAME.SystemIndex
+>               SELECT System.ItemPathDisplay FROM MACHINENAME.SystemIndex
