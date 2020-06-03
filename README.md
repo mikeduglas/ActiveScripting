@@ -25,6 +25,13 @@ VBScript, areas of use:
 
 [Demo application](https://yadi.sk/d/pF49IbwH_JEh4g) allows to run scripts and evaluate expressions.
 
+#### Price
+Core classes: $100
+Add-ons WMI, ADO, RegEx, Windows Search): $50 for each add-on.
+
+#### Contacts
+mikeduglas@yandex.ru
+
 VBScript examples.
 1. Calculator:
 type an expression like "0.75 / 4" or "sqr(5) + log(13)" and press Evaluate expression button.
@@ -53,7 +60,7 @@ next time type "fibonacci(20)" and press Evaluate expression button.
 
 Same is true for JScript and [ChakraJS](https://en.wikipedia.org/wiki/Chakra_(JScript_engine)).
 
-## Practical use of Active Scripting: Regular Expressions.
+#### Practical use of Active Scripting: Regular Expressions.
 
 Clarion has a very limited support of regular expressions. With javascript we can use the full power of regular expressions:
 
@@ -95,7 +102,7 @@ and this
 >         name = re.MatchedItem(i)
 >       END
 
-## Practical use of Active Scripting: [ADO](https://en.wikipedia.org/wiki/ActiveX_Data_Objects).
+#### Practical use of Active Scripting: [ADO](https://en.wikipedia.org/wiki/ActiveX_Data_Objects).
 
 For example, let’s see how to extract data from Microsoft Access database using VBScript (you can test it in the demo program):
 
@@ -149,7 +156,7 @@ Here is same task implemented with helper class:
 >         MESSAGE('Connection.Open failed')
 >       END
 
-## Practical use of Active Scripting: [WMI](https://en.wikipedia.org/wiki/Windows_Management_Instrumentation)
+#### Practical use of Active Scripting: [WMI](https://en.wikipedia.org/wiki/Windows_Management_Instrumentation)
 
 Short list of WMI tasks:
 
@@ -233,7 +240,7 @@ Querying the amount of memory a particular process uses:
 >               ADD(MemQ)
 >             END
 
-## Practical use of Active Scripting: [Windows Search](https://docs.microsoft.com/ru-ru/windows/win32/search/-search-3x-wds-overview?redirectedfrom=MSDN)
+#### Practical use of Active Scripting: [Windows Search](https://docs.microsoft.com/ru-ru/windows/win32/search/-search-3x-wds-overview?redirectedfrom=MSDN)
 
 Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types.
 
