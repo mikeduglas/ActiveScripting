@@ -281,3 +281,5 @@ You can request not only System.ItemPathDisplay (which actually is full filename
 
 Windows Search allows requests against remote machine as well, all you need is machine name:
 >               SELECT System.ItemPathDisplay FROM MACHINENAME.SystemIndex
+
+You can add folders to Search Index using [this project](https://github.com/mikeduglas/Search-API).
