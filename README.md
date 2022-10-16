@@ -32,8 +32,9 @@ VBScript, areas of use:
 - No dependencies (VC++, .NET and so on)
 
 ### Price
-Core classes: $150  
-Add-ons (WMI, ADO, RegEx, Windows Search): $25 for each add-on.
+- Core classes: $200 
+- Add-ons (WMI, ADO, RegEx, Windows Search): $30 for each add-on
+- Full: $300
 
 ### Contacts
 mikeduglas@yandex.ru
