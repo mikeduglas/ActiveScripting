@@ -35,7 +35,8 @@ VBScript, areas of use:
 - Core classes: $200 
 - Add-ons (WMI, ADO, RegEx, Windows Search): $30 for each add-on
 - Full: $300
-*Search for "Active Script" on Clarionshop.
+
+**Search for "Active Script" on Clarionshop.**
 
 ### Contacts
 mikeduglas@yandex.ru
